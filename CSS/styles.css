@@ -1,0 +1,145 @@
+body{
+   margin: 0%;
+   padding: 0%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: black;
+}
+nav .nav-right-section .menuicon{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+
+.perfil{
+    border-radius: 50%;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+main .mainlogo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .mainlogo img{
+    width: 340px;
+    height: 120px;
+}
+main .maininput{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .maininputcontainer{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .maininput .searchicon{
+    margin-right: 10px;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .maininput input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .maininput .microicon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+main .mainbuttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .mainbuttons div{
+    display: inline-block;
+}
+main .mainbuttons button{
+    height: 36px;
+    background-color: gainsboro;
+    border: 0;
+    font-size: 14px;
+    color: dimgray;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: gainsboro;
+    border-top: 1px solid lightgray;
+}
+footer .footerleft{
+    justify-self: left;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer ul li a{
+    margin: 10px;
+    color: dimgray;
+}
+footer .footerright{
+    justify-self: right;
+}
